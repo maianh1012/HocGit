@@ -1,18 +1,22 @@
 package BasicExercises;
-
 import java.util.Scanner;
 
 public class LietKeSoThuanNghich {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(system.in);
-		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Cac so thuan nghich co 6 chu so: ");
+		lietKeSTN();
 	}
 // kiem tra so thuan nghich	
 	public static boolean ktSoThuanNghich(int x){
-		String check1 = "" + x;
-		String check2 = x + "";
-		if(check1==check2){
+		int a = 0;
+		int y=x;
+		while(y!=0){
+			a = a*10+y%10;
+			y=y/10;
+		}
+		if(x==a){
 			return true;
 		}else{
 			return false;
@@ -23,8 +27,8 @@ public class LietKeSoThuanNghich {
 		for(int i=100000; i<=999999; i++){
 			if(ktSoThuanNghich(i)){
 				System.out.println(i);
+				
 			}
 		}
 	}
-	
 }
