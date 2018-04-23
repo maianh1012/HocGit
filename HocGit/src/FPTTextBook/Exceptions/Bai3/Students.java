@@ -72,7 +72,7 @@ public class Students {
 	@Override
 	
 	public String toString(){
-		return iRollNo + "\t" + fullName + "\t" + mark + "\t" + acacdemicStr + "\n";
+		return iRollNo + "\t" + fullName + "\t" + mark + "\t" + 	 acacdemicStr + "\n";
 	}
 	
 	public void input()throws InputMismatchException{

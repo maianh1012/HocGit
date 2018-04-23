@@ -4,13 +4,16 @@ import java.util.Scanner;
 
 public class HeCoSo {
 	public static void main(String[] args) {
-		Scanner sn = new Scanner(System.in);
-		System.out.println("Type a integer number: ");
-		int n = sn.nextInt();
-		System.out.println("Type a base you want change to: ");
-		int base = sn.nextInt();
-		System.out.println("The number in base(read from right to left):");
-		changeBase(n, base);
+//		Scanner sn = new Scanner(System.in);
+//		System.out.println("Type a integer number: ");
+//		int n = sn.nextInt();
+//		System.out.println("Type a base you want change to: ");
+//		int base = sn.nextInt();
+//		System.out.println("The number in base(read from right to left):");
+//		changeBase(n, base);
+//		
+		boolean is = true;
+		System.out.println(is);
 	}
 
 //Change base
